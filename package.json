@@ -1,0 +1,31 @@
+{
+  "name": "basic-auth",
+  "version": "1.0.0",
+  "description": "Lab06",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dionjwa1/basic-auth.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dionjwa1/basic-auth/issues"
+  },
+  "homepage": "https://github.com/dionjwa1/basic-auth#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.0.4",
+    "pg": "^8.6.0",
+    "sequelize-cli": "^6.2.0",
+    "sqlite3": "^5.0.2",
+    "supertest": "^6.1.3"
+  }
+}
